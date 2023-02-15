@@ -1,0 +1,45 @@
+body {
+    margin:0;
+}
+
+.topbar {
+    background-color: #FB2576;
+    overflow: hidden;
+       
+}
+
+/*.topbar a {
+    overflow: hidden;
+    text-decoration: none;
+    position: float;
+    text-align: center;
+}*/
+
+.topbar a {
+    font-family: "Times New Roman", Times, serif;
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    font-size: 17px; 
+}
+
+.searchtitle {
+    width: 30%;
+    height: 10%;
+    text-align: center;
+    border-radius: 4px;
+    border: 2px;
+    background-color: black;
+}
+
+.searchbox {
+    padding: 14px 14px;
+    position: relative;
+    text-align: center;    
+}
+
+.searchtitle:focus {
+    background-color: white;
+}
